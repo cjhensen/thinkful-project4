@@ -1,0 +1,44 @@
+// Google font import
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700');
+
+@large-heading: 24px;
+@medium-heading: 18px;
+@header-color: #444444;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-style: 700;
+	font-weight: 300;
+}
+h1 {
+	font-size: @large-heading;
+	text-align: center;
+	color: @header-color;
+	font-weight: 300;
+}
+h2 {
+	font-size: @medium-heading;
+	color: @header-color;
+	font-weight: 400;
+}
+
+ul {
+	list-style-type: none;
+}
+li {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+	background: #edf3ff;
+	padding: 20px;
+	border-radius: 8px;
+}
